@@ -16,8 +16,8 @@
         <SyntaxOptions>
           <SyntaxMode Value="Delphi"/>
           <CStyleOperator Value="False"/>
-          <CPPInline Value="False"/>
           <UseAnsiStrings Value="False"/>
+          <CPPInline Value="False"/>
         </SyntaxOptions>
       </Parsing>
       <CodeGeneration>
@@ -29,6 +29,7 @@
       </CodeGeneration>
       <Linking>
         <Debugging>
+          <DebugInfoType Value="dsDwarf3"/>
           <UseHeaptrc Value="True"/>
         </Debugging>
       </Linking>
