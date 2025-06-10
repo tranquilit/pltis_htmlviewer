@@ -21,14 +21,13 @@
         </SyntaxOptions>
       </Parsing>
       <CodeGeneration>
-        <Checks>
-          <OverflowChecks Value="True"/>
-          <StackChecks Value="True"/>
-        </Checks>
-        <VerifyObjMethodCallValidity Value="True"/>
+        <Optimizations>
+          <OptimizationLevel Value="3"/>
+        </Optimizations>
       </CodeGeneration>
       <Linking>
         <Debugging>
+          <GenerateDebugInfo Value="False"/>
           <DebugInfoType Value="dsDwarf3"/>
           <UseHeaptrc Value="True"/>
         </Debugging>
@@ -148,10 +147,14 @@
       <Item26>
         <Filename Value="..\source\BegaPreview.pas"/>
         <UnitName Value="BegaPreview"/>
+        <ResourceBaseClass Value="Frame"/>
+        <ResourceBaseClassname Value=""/>
       </Item26>
       <Item27>
         <Filename Value="..\source\BegaPreviewForm.pas"/>
         <UnitName Value="BegaPreviewForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceBaseClassname Value=""/>
       </Item27>
       <Item28>
         <Filename Value="..\source\BegaPreviewPanel.pas"/>
