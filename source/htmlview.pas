@@ -1432,7 +1432,7 @@ begin
   else
     FPaintPanel.OnGesture := HtmlGesture;
 {$endif}
-  LoadFromString(FText);
+  //LoadFromString(FText);
 end;
 
 {----------------THtmlViewer.LoadString}
@@ -1743,7 +1743,7 @@ var
   SI, SI2, SI3: ThtScrollInfo;
   WasDontDraw: Boolean;
 begin
-  HandleNeeded;
+  //HandleNeeded;
   WasDontDraw := vsDontDraw in FViewerState;
   Include(FViewerState, vsDontDraw);
   try
