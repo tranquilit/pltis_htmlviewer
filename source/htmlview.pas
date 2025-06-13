@@ -2984,7 +2984,7 @@ begin
 //    LoadFromString(Value);
 //{$endif}
 //  end;
-  if FText <> Value then
+  //if FText <> Value then
   begin
     FText := Value;
     Retext(rtmNewText);
